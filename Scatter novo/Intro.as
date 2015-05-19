@@ -128,26 +128,9 @@
 		}
 		function helpButtonPressed(event:MouseEvent):void
 		{
-			stageRef.removeEventListener(MouseEvent.CLICK, newGameButtonPressed);
-			/*var window:Help = new Help(stageRef);
-			addChild(window);*/
-
-			/*Instructions:
-			1. Replace the value 200 with the x-coordinate where you want to position the TextField.
-			2. Replace the value 100 with the y-coordinate where you want to position the TextField.
-			3. Replace the string value "Lorem ipsum dolor sit amet" with the text you want to display in the TextField that appears. Keep the quotation marks.
-			*/
-			var fl_TF:TextField;
-			var fl_TextToDisplay:String = "Lorem ipsum dolor sit amet.";
-			fl_TF = new TextField();
-			fl_TF.autoSize = "left";
-			fl_TF.background = true;
-			fl_TF.border = true;
-			fl_TF.x = 200;
-			fl_TF.y = 100;
-			fl_TF.text = fl_TextToDisplay;
-			addChild(fl_TF);
-
+			stop();
+			var window : Help = new Help(stageRef);
+			stageRef.addChild(window);
 		}
 	}
 }
