@@ -124,11 +124,12 @@
 		function newGameButtonPressed(event:MouseEvent):void
 		{
 			stageRef.removeChild(this);
-			stageRef.removeEventListener(MouseEvent.CLICK, newGameButtonPressed);
+			//stageRef.removeEventListener(MouseEvent.CLICK, newGameButtonPressed);
 		}
 		function helpButtonPressed(event:MouseEvent):void
 		{
-			stop();
+			stageRef.removeChild(this);
+			//stageRef.removeEventListener(MouseEvent.CLICK, helpButtonPressed);
 			var window : Help = new Help(stageRef);
 			stageRef.addChild(window);
 		}
