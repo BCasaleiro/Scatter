@@ -1,0 +1,1 @@
+﻿package  {		public class Level {		var id;		var mapSize;		var objects : Vector;		public function Level(id : int, mapSize: int, mapObjects : Vector) {			this.id = id;			this.mapObjects = mapObjects;			this.mapSize = mapSize;		}	}	}
