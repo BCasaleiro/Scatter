@@ -1,0 +1,10 @@
+{
+    "id": 1,
+    "mapWidth": 1440,
+    "mapHeight":960,
+    "nObjects": 2,
+    "objects": [
+        { "walkable": 1, "src": "edificio1.png", "x": 0, "y": 0, "width": 720, "height": 192, "info": "conas" },
+        { "walkable": 0, "src": "edificio2.png", "x": 50, "y": 50, "width": 50, "height": 50, "info": "conas" }
+    ]
+}
