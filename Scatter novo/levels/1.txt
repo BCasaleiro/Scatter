@@ -4,10 +4,11 @@
     "mapHeight":960,
     "nObjects": 2,
     "objects": [
-        { "walkable": 0, "src": "buildings/edificio1.png", "x": 460, "y": 280, "width": 100, "height": 440, "info": "road" },
-        { "walkable": 0, "src": "buildings/edificio2.png", "x": 360, "y": 280, "width": 670, "height": 100, "info": "road" },
-        { "walkable": 0, "src": "buildings/edificio2.png", "x": 930, "y": 280, "width": 100, "height": 400, "info": "road" },
-        { "walkable": 0, "src": "buildings/edificio2.png", "x": 460, "y": 580, "width": 570, "height": 100, "info": "road" },
-        { "walkable": 0, "src": "buildings/edificio2.png", "x": 930, "y": 420, "width": 200, "height": 100, "info": "road" }
+        { "walkable": 0, "src": "estradav", "x": 460, "y": 280, "width": 100, "height": 440, "info": "road" },
+        { "walkable": 0, "src": "estradah", "x": 360, "y": 280, "width": 670, "height": 100, "info": "road" },
+        { "walkable": 0, "src": "estradav", "x": 930, "y": 280, "width": 100, "height": 400, "info": "road" },
+        { "walkable": 0, "src": "estradah", "x": 460, "y": 580, "width": 570, "height": 100, "info": "road" },
+        { "walkable": 0, "src": "estradah", "x": 930, "y": 420, "width": 200, "height": 100, "info": "road" },
+        { "walkable": 1, "src": "edificio3", "x": 360, "y": 380, "width": 100, "height": 100, "info": "road" }
     ]
 }

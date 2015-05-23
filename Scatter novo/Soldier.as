@@ -1,0 +1,1 @@
+﻿package  {		public class Soldier extends Person{		public function Soldier() {			// constructor code		}	}	}

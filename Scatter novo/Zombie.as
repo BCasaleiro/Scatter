@@ -1,0 +1,1 @@
+﻿package  {		public class Zombie extends Person{		public function Zombie() {			// constructor code		}	}	}
