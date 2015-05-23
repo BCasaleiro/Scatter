@@ -4,7 +4,10 @@
     "mapHeight":960,
     "nObjects": 2,
     "objects": [
-        { "walkable": 1, "src": "edificio1.png", "x": 0, "y": 0, "width": 720, "height": 192, "info": "conas" },
-        { "walkable": 0, "src": "edificio2.png", "x": 50, "y": 50, "width": 50, "height": 50, "info": "conas" }
+        { "walkable": 0, "src": "buildings/edificio1.png", "x": 460, "y": 280, "width": 100, "height": 440, "info": "road" },
+        { "walkable": 0, "src": "buildings/edificio2.png", "x": 360, "y": 280, "width": 670, "height": 100, "info": "road" },
+        { "walkable": 0, "src": "buildings/edificio2.png", "x": 930, "y": 280, "width": 100, "height": 400, "info": "road" },
+        { "walkable": 0, "src": "buildings/edificio2.png", "x": 460, "y": 580, "width": 570, "height": 100, "info": "road" },
+        { "walkable": 0, "src": "buildings/edificio2.png", "x": 930, "y": 420, "width": 200, "height": 100, "info": "road" }
     ]
 }

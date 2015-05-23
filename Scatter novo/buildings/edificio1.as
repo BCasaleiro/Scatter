@@ -1,0 +1,1 @@
+﻿package  {		import flash.display.SimpleButton;			public class edificio1 extends SimpleButton {						public function edificio1() {			// constructor code		}	}	}
