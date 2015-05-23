@@ -1,0 +1,1 @@
+﻿package  {		import flash.display.MovieClip;	import flash.events.MouseEvent;		public class Scientist extends Person {						public function Scientist() {					}					}	}

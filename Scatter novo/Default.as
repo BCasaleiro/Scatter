@@ -1,0 +1,1 @@
+﻿package  {		import flash.display.MovieClip;			public class Default extends Zombie {						public function Default() {			// constructor code		}	}	}

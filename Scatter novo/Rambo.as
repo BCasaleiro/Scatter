@@ -1,0 +1,1 @@
+﻿package  {		import flash.display.MovieClip;			public class Rambo extends Soldier {						public function Rambo() {			// constructor code		}	}	}
