@@ -1,1 +1,1 @@
-﻿package  {		import flash.display.MovieClip;			public class Tank extends Zombie {						public function Tank() {			// constructor code		}	}	}
+﻿package  {		import flash.display.MovieClip;			public class Tank extends Zombie {						public function Tank(game: Main, map : Map) {			super(game, map);		}	}	}

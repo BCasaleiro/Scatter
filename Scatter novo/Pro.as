@@ -1,1 +1,1 @@
-﻿package  {		import flash.display.MovieClip;			public class Pro extends Soldier{				var headShotProb : int;				public function Pro() {					}	}	}
+﻿package  {		import flash.display.MovieClip;			public class Pro extends Soldier{				var headShotProb : int;				public function Pro(game : Main, map : Map) {			super(game, map);		}	}	}

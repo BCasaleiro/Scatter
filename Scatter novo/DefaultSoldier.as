@@ -1,1 +1,1 @@
-﻿package  {		import flash.display.MovieClip;			public class DefaultSoldier extends Soldier {						public function DefaultSoldier() {			// constructor code		}	}	}
+﻿package  {		import flash.display.MovieClip;			public class DefaultSoldier extends Soldier {						public function DefaultSoldier(game : Main, map : Map) {			super(game, map);		}	}	}
