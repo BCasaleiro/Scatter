@@ -1,1 +1,1 @@
-﻿package  {		public class Soldier extends Person{		var shootingRange : int;		var shootingRate : int;		public function Soldier() {			// constructor code		}	}	}
+﻿package  {		public class Soldier extends Person{		var shootingRange : int;		var shootingRate : int;		public function Soldier(game : Main, map : Map) {			this.game = game;			this.map = map;		}	}	}
