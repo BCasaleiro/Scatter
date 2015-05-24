@@ -1,1 +1,1 @@
-﻿package  {		import flash.display.MovieClip;			public class Pro extends Soldier{						public function Pro() {			// constructor code		}	}	}
+﻿package  {		import flash.display.MovieClip;			public class Pro extends Soldier{				var headShotProb : int;				public function Pro() {					}	}	}

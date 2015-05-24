@@ -1,1 +1,1 @@
-﻿package  {	import flash.display.MovieClip;		public class Person extends MovieClip{		public function Person() {					}	}	}
+﻿package  {	import flash.display.MovieClip;		public class Person extends MovieClip{		var game : Main;		var map : Map;		var health : int;		var speed : Number;		public function Person() {					}		public function isDead() : Boolean {			return this.health <= 0;		}	}	}
