@@ -52,7 +52,7 @@
 				walkableMap[object.posX][object.posY + i] = object.walkable;
 			}
 		}
-
+		
 		public function drawInMap(object : MapObjects) {
 			createMapObject(object.imageSrc, object.posX, object.posY, object.sizeX, object.sizeY, object.walkable);
 		}
