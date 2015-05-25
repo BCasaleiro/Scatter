@@ -1,1 +1,1 @@
-﻿package  {		import flash.display.MovieClip;			public class Tank extends Zombie {						public function Tank(game: Main, map : Map) {			super(game, map);		}	}	}
+﻿package  {		import flash.display.MovieClip;			public class Tank extends Zombie {						public function Tank(game: Main, map : Map) {			super(game, map);			this.health = 10;			this.speed = 2.8;		}	}	}
