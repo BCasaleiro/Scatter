@@ -1,1 +1,1 @@
-﻿package  {		import flash.display.MovieClip;			public class Rambo extends Soldier {				public function Rambo(game : Main, map : Map) {			super(game, map);		}	}	}
+﻿package  {		import flash.display.MovieClip;			public class Rambo extends Soldier {				public function Rambo(game : Main, map : Map) {			super(game, map);			this.damage = 1;			this.shootingRate = 20;		}	}	}
