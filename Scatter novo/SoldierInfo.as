@@ -1,0 +1,1 @@
+﻿package  {		public class SoldierInfo {		var x : int;		var y : int;		var width : int;		var height : int;		var rotation : int;		public function SoldierInfo(x : int, y : int, width : int, height : int, rotation : int) {			this.x = x;			this.y = y;			this.width = width;			this.height = height;			this.rotation = rotation;		}	}	}
